@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Model weights (downloaded on first run, never committed)
+*.onnx
+*.pt
+*.pth
+models/
+
+# User data written at runtime
+logs/
+crashes/
+snapshots/
+exports/
+presets/*.json
+
+# IDE / OS
+.idea/
+.vscode/
+.vs/
+*.swp
+Thumbs.db
+desktop.ini
